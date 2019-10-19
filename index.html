@@ -1,14 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sourobrata</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sourobrata Sarkar</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Bulma Version 0.7.x-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script async type="text/javascript" src="../js/bulma.js"></script>
 </head>
+
 <body>
-    <p>Hello World</p>
-    <script type="text/javascript" src="js/main.js"></script>
+  <!-- Navigation bar -->
+  <nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#services">
+          <span class="icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span>Services</span>
+        </a>
+        <!-- <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resume</span>
+        </a> -->
+        <a class="navbar-item" href="#portfolio">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Portfolio</span>
+        </a>
+        <a class="navbar-item" href="#contact">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <h3 class="subtitle is-4">Hello! I am</h3>
+        <h1 class="title is-1">
+          Sourobrata Sarkar
+        </h1>
+        <h3 class="subtitle is-3">
+          Full-stack web developer
+        </h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="section-heading">
+      <h3 class="title is-2">Services</h3>
+      <h4 class="subtitle is-5">What can I do for you?</h4>
+    </div>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Front End Web Development</h4>
+            Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript (and frameworks like Angular and React.js).
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Back End Web Development</h4>
+              Develop Back End application/service using Node.js or Python and databases like mySQL/MongoDB/Postgres.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Native Mobile App Development</h4>
+              Develop native mobile apps for Android and iOS using Kotlin/Java and Swift/Objective-C.
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Hybrid Mobile App Development</h4>
+              Develop hybrid mobile apps for Android and iOS using frameworks like React-Native and Flutter.
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <!-- <section class="section" id="resume">
+    <div class="section-heading">
+      <h3 class="title is-2">Resume</h3>
+      <h4 class="subtitle is-5">More about my past</h4>
+      <a href="#" class="button is-link is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Download My Resume</span>
+      </a>
+    </div>
+  </section> -->
+
+  <!-- Portfolio -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Portfolio</h3>
+        <h4 class="subtitle is-5">My latest works</h4>
+      </div>
+      <br>
+
+      <div class="container portfolio-container">
+        <div class="columns">
+          <div class="column is-4">
+            <!-- admin -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Furniture store</span>
+                  
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/image.png" alt="Store template screenshot">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="https://souro7.github.io/" class="card-footer-item">Preview</a>
+                <a href="https://github.com/Souro7" class="card-footer-item">Source
+                  Code</a>
+              </footer>
+            </div>
+
+          </div>
+          <div class="column is-4">
+            <!-- band -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Restaurant</span>
+                
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/image.png" alt="Restaurant template screenshot">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                    <a href="https://souro7.github.io/" class="card-footer-item">Preview</a>
+                    <a href="https://github.com/Souro7" class="card-footer-item">Source
+                      Code</a>
+                  </footer>
+            </div>
+
+          </div>
+          <div class="column is-4">
+            <!-- blog -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Rental Service</span>
+                  
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/image.png" alt="Blog template screenshot">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                    <a href="https://souro7.github.io/" class="card-footer-item">Preview</a>
+                    <a href="https://github.com/Souro7" class="card-footer-item">Source
+                      Code</a>
+                  </footer>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Contact</h3>
+        <h4 class="subtitle is-5">Get in touch</h4>
+      </div>
+      <br>
+
+      <div class="columns">
+        <div class="column is-6 is-offset-3">
+          <div class="box">
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Text input">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Email input" value="">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+              </div>
+            </div>
+
+            <div class="field is-grouped has-text-centered">
+              <div class="control">
+                <button class="button is-link is-large"><span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span>Submit</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-heading">
+      <!-- todo -->
+    </div>
+  </footer>
 </body>
+
 </html>
